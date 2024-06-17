@@ -1,0 +1,22 @@
+1 implementar os metodos de deposito e saque na classe dioaccount
+
+- os valores dos saldos devem ser alterados de acordo com o valor informado para deposito
+- apenas contas com o status true e saldo maior que o valor solicitado podem fazer saques
+
+2 implementar o metodo de emprestimo na classe companyaccount
+
+- os valores de saldos deve ser acrescidos, de acordo com o valor informado para emprestimo
+- apenas contas com status truue podem fazer emprestimos
+
+3 criar um noto tipo de conta a parte da dioaccount
+
+- esta conta nao deve reeber novos atributos
+- esta conta tera um metodo de deposito, que acresce 10 a mais ao valor informado para deposito
+ex: um deposito de 100,   sera de 110 no final
+
+4 todos os atributos de qualquer conta devem ser privados
+
+5 os atributos name e accountNumber nao podem ser alterados internamente ou externamente
+
+6 criar instancias para cada um dos tipos de conta no app.ts e executar os metodos possiveis
+
